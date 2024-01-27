@@ -88,7 +88,7 @@ class User(ABC):
         pass
    
     def transaction_history(self):
-        for transaction in self.transactions:
+        for transaction in self.transictions:
             print(transaction)
         
     def transfer_amount(self, other_account, amount):
